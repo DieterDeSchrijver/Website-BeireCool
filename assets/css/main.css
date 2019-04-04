@@ -1,0 +1,79 @@
+h1{
+        color: white;
+        font-weight: bold !important;
+        
+}
+
+h2{
+        color: #1E6A9E;
+}
+
+.persoon{
+        width: 25%;
+        overflow: hidden;
+        float: left;
+}
+
+
+@media screen and (max-width: 992px) {
+        .persoon {
+          width: 50%;
+        }
+
+}
+      
+@media screen and (max-width: 600px) {
+        .persoon {
+        width: 70%;
+        margin: auto !important;
+        float: none;
+
+        }
+        
+}
+
+@media screen and (min-width: 992px) {
+        .droomKnop{
+                margin-top: -200px;
+        }
+}
+
+
+
+.yeettekst{
+        font-size: 1.2em !important;
+}
+
+.samenwerkenAfb{
+        padding-bottom: 30px;
+        height: 300px;
+        width: 300px;
+}
+
+.samenwerkenTekst{
+        font-size: 1.2em !important; 
+}
+
+.rekTekst{
+        font-size: 1.2em !important; 
+}
+
+.footerTekst{
+        color: white !important;   
+}
+
+.linkSpecular{
+        color: white;
+        font-style: italic;
+}
+
+.droomKnop{
+        font-size: 1.1em !important;
+}
+
+.beireLogo{
+        height: 320px !important;
+        width: 320px !important;
+        margin: auto;
+}
+
