@@ -10,16 +10,13 @@ h2{
 
 .persoon{
         width: 25%;
-        overflow: hidden;
         float: left;
 }
-
 
 @media screen and (max-width: 992px) {
         .persoon {
           width: 50%;
         }
-
 }
       
 @media screen and (max-width: 600px) {
@@ -31,14 +28,18 @@ h2{
         }
         
 }
-
+      
 @media screen and (min-width: 992px) {
         .droomKnop{
-                margin-top: -200px;
+                margin-bottom: 35% !important;
+        }
+
+        .beireLogo{
+                height: 470px !important;
+                width: 475px !important;
+                margin: auto;
         }
 }
-
-
 
 .yeettekst{
         font-size: 1.2em !important;
@@ -76,4 +77,22 @@ h2{
         width: 320px !important;
         margin: auto;
 }
+
+
+#thankyouimg{
+        width: 20%;
+        margin:5% 40%;   
+}
+
+#thankyoutext{
+        color: white;
+        font-size: 3em;
+        font-family: 'Open Sans', sans-serif;
+
+}
+
+.link{
+        text-decoration: underline !important;
+}
+
 

@@ -17,7 +17,7 @@ Table of Contents:
 	8. Animations 
 
 -------------------------------------------------------------------------------- */
-/* ----------------------------------------------------------------------------- */
+ */
 /* --- 1. SETUP
 /* ----------------------------------------------------------------------------- */
 body { position: relative; color: #434343; font-size: 13px; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.5; overflow-x: hidden; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
@@ -2046,7 +2046,7 @@ html[dir="rtl"] .btn.btn-lg { font-size: 14px; }
 .form-control.bordered::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.5); }
 .form-control.bordered:focus, .form-control.bordered:active { border-color: rgba(255, 255, 255, 0.4); }
 .form-control.valid { border-color: #8ac04b; }
-.form-control.error { border-color: #e15757; }
+.form-control.error { }
 
 textarea.input-sm { height: auto !important; }
 

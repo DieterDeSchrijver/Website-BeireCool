@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-cookies-popup="true">
+<head>
+
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600' rel='stylesheet' type='text/css'>
+
+<!-- Title -->
+<title class="text-center title">Beire Cool</title>
+<body style="background-color:lightblue">
+<img src="assets/img/afbeeldingen/beirecoolLogo.png" id="thankyouimg">
+<p id="thankyoutext" class="text-center">Bedankt voor ons te volgen!</p>
+
+
+</body>
+<script>
+
+window.onload = function(){
+	console.log("REEE")
+	wait(5000);
+	window.location.replace("index.html");
+}
+
+function wait(ms){
+   var start = new Date().getTime();
+   var end = start;
+   while(end < start + ms) {
+     end = new Date().getTime();
+  }
+}
+</script>
+</html>
