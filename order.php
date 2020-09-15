@@ -61,10 +61,10 @@
     $phone = $_POST['telephone'];
     $addMessage = $_POST['additional_message'];
     echo $spaghetti_veg;
-    $server = "specular.be.mysql";
-    $dbUser = "specular_bebeirecool";
-    $pw = "beirecool";
-    $db = "specular_bebeirecool";
+    $server = "ID290120_beirecool.db.webhosting.be";
+    $dbUser = "ID290120_beirecool";
+        $pw = "beirecool123";
+        $db = "ID290120_beirecool";
 	
     
 	$connect = mysqli_connect($server, $dbUser, $pw, $db);

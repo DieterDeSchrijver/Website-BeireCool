@@ -6,15 +6,23 @@
 	var oct10 = new Date(2020,09,10);
 	var oct11 = new Date(2020,09,11);
 	
+	if( !($("#dateLeveren option[value='NVT']").parent().is('span')) ) $("#dateLeveren option[value='NVT']").wrap('<span>');
+	if( !($("#dateAfhalen option[value='NVT']").parent().is('span')) ) $("#dateAfhalen option[value='NVT']").wrap('<span>');
+
 	$('#option').change(function(){
+
 		console.log($('#option').find(":selected").text())
 		if ($('#option').find(":selected").text() === 'Afhalen') {
+			if( !($("#dateAfhalen option[value='NVT']").parent().is('span')) ) $("#dateAfhalen option[value='NVT']").wrap('<span>');
 			$('#dateLeverenBox').css("display","none");
 			$('#dateAfhalenBox').show();
+			if( ($("#dateLeveren option[value='NVT']").parent().is('span')) ) $("#dateLeveren option[value='NVT']").unwrap();
 			$('#dateLeveren').val('NVT');
 		}else if($('#option').find(":selected").text() === 'Laten leveren'){
+			if( !($("#dateLeveren option[value='NVT']").parent().is('span')) ) $("#dateLeveren option[value='NVT']").wrap('<span>');
 			$('#dateLeverenBox').show();
 			$('#dateAfhalenBox').css("display","none");
+			if( ($("#dateAfhalen option[value='NVT']").parent().is('span')) ) $("#dateAfhalen option[value='NVT']").unwrap();
 			$('#dateAfhalen').val('NVT');
 		}
 	})
